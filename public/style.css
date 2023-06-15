@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Libre';
+    src: url('../public/fonts/LibreFranklin-Regular.ttf');
+}
+
+*{
+    font-family: 'Libre';
+}
+
+.btnView{
+    font-family: 'Libre';
+    background-color: #71C9CE;
+    border-radius: 52px;
+  
+    width: 55px;
+    height: auto;
+    margin-left: 40px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btnViewHome{
+    
+    font-family: 'Libre';
+    background-color: white;
+    border-radius: 52px;
+    font-weight: 500;
+    width: 70px;
+    height: auto;
+    text-decoration: none;
+    color:#71C9CE;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.btnViewBack{
+    
+    font-family: 'Libre';
+    background-color: white;
+    border-radius: 52px;
+    padding: 2px;
+    font-weight: 500;
+    width: 40px;
+    height: fit-content;
+    text-decoration: none;
+    color:#71C9CE;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btnManage{
+    margin-left: 20px;
+    font-family: 'Libre';
+    background-color: #71C9CE;
+    border-radius: 52px;
+    width: 130px;
+    font-weight: 500;
+    padding: 2px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+footer{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.background{
+    background-image: linear-gradient(to right, #71C9CE , #CBF1F5);
+    color: white;
+    border-radius: 30px;
+}
+
+.modelBackground{
+    background-color: #71C9CE;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    width: 150px;
+    height: 200px;
+  
+}
+
+.modelBackgroundView{
+    background-color: #71C9CE;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    width: 170px;
+    height: 250px;
+  
+}
+
+model-viewer {
+    /* background-color: #71C9CE;
+    border-radius: 37px;
+    border-color: white; */
+    --progress-bar-color: transparent;
+  }
+
+.containerModel{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.containerWelcome{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* .containerIconView{
+    margin-top: 30px;
+} */
+
+.containerIcon{
+    background-color: #71C9CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 250px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 20px;
+    height: auto;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active, .accordion:hover {
+    background-color: #ccc;
+  } */
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    word-wrap: break-word;
+    color: black;
+    transition: 0.9s;
+    height: 200px;
+    width: 250px;
+  
+  }
+
+.panel-text{
+    background-color: #71C9CE;
+    border-style: dashed;
+    border-color:white ;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 20px;
+    overflow-y: auto;
+    height: 180px;
+    width: 220px;
+    margin-bottom: 10px;
+}
+  
+table, table th, table td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  color: black;
+}
+
+.containerPlusIcon{
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+table th{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+   
+}
+
+table td{
+    text-align: left;
+    font-size: 10px;
+    max-width: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    margin-top: 100px;
+    margin-bottom: 2px;
+
+}
+
+.containerTable{
+  
+    background-color: #71C9CE;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    border-color: white;
+    border-style: solid;
+}
+
+.containerTableOut{
+    width: 100%;
+}
+
+.containerAddBackground{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.containerTextAdd{
+    padding: 2px;
+    color: #71C9CE;
+    font-size: 10px;
+    
+}
+
+.containerSearchBar{
+    background-color: #71C9CE;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.containerSearchIcon{
+    margin-left: 4px;
+    margin-right: 7px;
+}
+
+.containerSearchText{
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.413);
+}
+
+.containerSearchBtn{
+    background-color: #71C9CE;
+    border-style: none;
+}
+
+.containerSearchTextInput{
+    background-color: #71C9CE;
+    border-style: none;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5; /* Firefox */
+}
+
+.containerAddBtn{
+    border:none;
+    border-radius: 10px;
+}
+
+.buttonActions{
+    border:none;
+    background-color: #71C9CE;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
