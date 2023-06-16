@@ -55,7 +55,7 @@
                                     
                                 </div>
                                 <div class="containerAdd">
-                                    <a href="" class="btnAddDisease">Add Disease</a>
+                                    <a href="" class="btnAddDisease">Edit Disease</a>
                                 </div>
                             </div>
                         </div>
