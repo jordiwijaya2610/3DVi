@@ -12,13 +12,13 @@
     background-color: #71C9CE;
     border-radius: 52px;
   
-    width: 55px;
+    width: 60px;
     height: auto;
     margin-left: 40px;
     text-decoration: none;
     color:black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .btnViewHome{
@@ -27,12 +27,12 @@
     background-color: white;
     border-radius: 52px;
     font-weight: 500;
-    width: 70px;
+    width: 150px;
     height: auto;
     text-decoration: none;
     color:#71C9CE;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -41,14 +41,17 @@
     font-family: 'Libre';
     background-color: white;
     border-radius: 52px;
-    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-weight: 500;
-    width: 40px;
-    height: fit-content;
+    width: auto;
+    height: auto;
     text-decoration: none;
     color:#71C9CE;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -67,7 +70,7 @@
 }
 
 footer{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -75,6 +78,7 @@ footer{
     background-image: linear-gradient(to right, #71C9CE , #CBF1F5);
     color: white;
     border-radius: 30px;
+    height: 800px;
 }
 
 .modelBackground{
@@ -82,8 +86,8 @@ footer{
     border-radius: 10px;
     border-color: white;
     border-style: solid;
-    width: 150px;
-    height: 200px;
+    width: 250px;
+    height: 600px;
   
 }
 
@@ -92,31 +96,25 @@ footer{
     border-radius: 10px;
     border-color: white;
     border-style: solid;
-    width: 170px;
-    height: 250px;
+    width: 250px;
+    height: 600px;
   
 }
 
 model-viewer {
-    /* background-color: #71C9CE;
-    border-radius: 37px;
-    border-color: white; */
     --progress-bar-color: transparent;
   }
 
 .containerModel{
-    margin-bottom: 20px;
+    margin-bottom: 6px;
     margin-top: 20px;
+    height: 680px;
 }
 
 .containerWelcome{
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 26px;
 }
-
-/* .containerIconView{
-    margin-top: 30px;
-} */
 
 .containerIcon{
     background-color: #71C9CE;
@@ -126,31 +124,24 @@ model-viewer {
     border-radius: 5px;
     border-color: white;
     border-style: solid;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: white;
     color: #444;
     cursor: pointer;
     padding: 5px;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border: none;
     outline: none;
-    font-size: 12px;
+    font-size: 18px;
     border-radius: 20px;
     height: auto;
   }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* .active, .accordion:hover {
-    background-color: #ccc;
-  } */
-  
-  /* Style the accordion panel. Note: hidden by default */
+
   .panel {
     padding: 0 18px;
     background-color: white;
@@ -162,7 +153,7 @@ model-viewer {
     color: black;
     transition: 0.9s;
     height: 200px;
-    width: 250px;
+    width: 300px;
   
   }
 
@@ -170,12 +161,12 @@ model-viewer {
     background-color: #71C9CE;
     border-style: dashed;
     border-color:white ;
-    font-size: 10px;
+    font-size: 13px;
     padding: 7px;
     border-radius: 20px;
     overflow-y: auto;
     height: 180px;
-    width: 220px;
+    width: 270px;
     margin-bottom: 10px;
 }
   
@@ -186,21 +177,23 @@ table, table th, table td {
 }
 
 .containerPlusIcon{
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
     margin-right: 10px;
 }
 
 table th{
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     color: white;
+    height:10px;
    
 }
 
 table td{
     text-align: left;
-    font-size: 10px;
+    font-size: 15px;
+    height: 1px;
     max-width: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -213,28 +206,29 @@ table td{
 .containerTable{
   
     background-color: #71C9CE;
-    width: 400px;
+    width: 600px;
+    height: 600px;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
     border-color: white;
     border-style: solid;
 }
 
 .containerTableOut{
     width: 100%;
+    margin-top: 5px;
 }
 
 .containerAddBackground{
-    background-color: white;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 10px;
+    color: black;
     
 }
 
 .containerTextAdd{
-    padding: 2px;
     color: #71C9CE;
     font-size: 10px;
     
@@ -250,12 +244,13 @@ table td{
 .containerSearchIcon{
     margin-left: 4px;
     margin-right: 7px;
+    margin-bottom: 6px;
 }
 
 .containerSearchText{
-    width: 200px;
+    width: auto;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.413);
 }
 
@@ -280,6 +275,8 @@ table td{
 .containerAddBtn{
     border:none;
     border-radius: 10px;
+    height: 40px;
+    
 }
 
 .buttonActions{
@@ -294,14 +291,12 @@ table td{
     border-radius: 10px;
     border-color: white;
     border-style: solid;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    height: 600px;
 }
 
 .containerAddDiseaseText{
-    font-size: 12px;
-    margin-bottom: 10px;
-    margin-top: 3px;
+    font-size: 20px;
 }
 
 .containerAddInput{
@@ -314,23 +309,23 @@ table td{
 }
 
 .containerAddText{
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .containerEditText{
-    font-size: 10px
+    font-size: 18px
 }
 
 
 .containerChooseColorText{
-    font-size: 10px;
+    font-size: 18px;
     margin-left: 5px;
 }
 
 .InputAdd{
-    width: 185px;
-    height: 15px;
-    font-size: 8px;
+    width: 230px;
+    height: 18px;
+    font-size: 13px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -350,9 +345,9 @@ table td{
 }
 
 .InputInfo{
-    width: 185px;
-    height: 70px;
-    font-size: 8px;
+    width: 230px;
+    height: 90px;
+    font-size: 13px;
     outline: none;
     border: none;
     margin: 0;
@@ -360,9 +355,9 @@ table td{
 }
 
 .editInfoName{
-    width: 185px;
-    height: 15px;
-    font-size: 8px;
+    width: 230px;
+    height: 18px;
+    font-size: 13px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -371,14 +366,14 @@ table td{
 
 .editInfoName::placeholder{
     color: black;
-    font-size: 8px;
+    font-size: 13px;
     opacity: 1;
 }
 
 .editInfoDisease{
-    width: 185px;
-    height: 70px;
-    font-size: 8px;
+    width: 230px;
+    height: 90px;
+    font-size: 13px;
     outline: none;
     border: none;
     margin: 0;
@@ -388,25 +383,25 @@ table td{
 
 .editInfoDisease::placeholder{
     color: black;
-    font-size: 8px;
+    font-size: 13px;
     opacity: 1;
 }
 
 .InputInfo::placeholder{
     color: black;
     text-align: left;
-    font-size: 8px;
+    font-size: 13px;
    
 }
 .InputAdd::placeholder{
     color: black;
-    font-size: 8px;
+    font-size: 13px;
    
 }
 
 .ColorInputModel{
-    width: 20px;
-    height: 10px;
+    width: 40px;
+    height: 20px;
     outline: none;
     border: none;
     display: flex;
@@ -421,7 +416,7 @@ table td{
 }
 
 .containerChooseText{
-    font-size: 10px;
+    font-size: 18px;
     margin-left: 5px;
 }
 
@@ -444,14 +439,17 @@ table td{
     font-family: 'Libre';
     background-color: white;
     border-radius: 52px;
-    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-weight: 500;
-    width: 60px;
-    height: 20px;
+    width: auto;
+    height: auto;
     text-decoration: none;
     color:#71C9CE;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -460,8 +458,8 @@ table td{
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;
     margin-top: 25px;
+    height: 510px;
 
 }
 
@@ -472,7 +470,8 @@ table td{
     display: flex;
     align-items: center;
     font-size: 10px;
-    width: 185px;
+    width: 230px;
+    height: 25px;
     border-radius: 5px;
 
 }
@@ -480,6 +479,7 @@ table td{
 .containerColorInputModelName{
     margin-left: 5px;
     width: 50%;
+    font-size: 13px;
     
 }
 

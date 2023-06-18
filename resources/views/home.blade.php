@@ -10,7 +10,7 @@
                 </div>
                 <div class="containerSearchIcon" >
                   <button class="containerSearchBtn">
-                    <img src="search.png" alt="" style="width: 10px;height:10px">
+                    <img src="search.png" alt="" style="width: 15px;height:15px">
                   </button>
                 </div>
               </div>
@@ -28,7 +28,6 @@
                         <div class="containerAddDiseaseText">
                           Add Disease
                         </div>
-                        
                       </div>
                     </button>
                   </div>
@@ -36,24 +35,52 @@
   
                 </div>
                 <div class="containerTable" style="display: flex; justify-content: center;">
-                  <table width= 100%;>
+                  <table width= 100%; height=550px>
                       <tr>
-                        <th width= 40%;>Disease</th>
+                        <th  width= 40%;>Disease</th>
                         {{-- <th width= 40%>Disease Information</th> --}}
-                        <th width= 40%>Action</th>
+                        <th  width= 40%>Action</th>
 
                       </tr>
                       <tr>
                         <td>Influenza</td>
                         <td style="text-align: center;">
                           <button class="buttonActions">
-                            <img src="delete.png" alt="" style="width: 13px;height:13px">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
                           </button>
                           <button class="buttonActions">
-                            <img src="edit.png" alt="" style="width: 13px;height:13px">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
                           </button>
 
                         </td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                      </tr>
+                      <tr>
+                        <td>Influenza</td>
+                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
                       </tr>
                       <tr>
                         <td>Influenza</td>

@@ -5,7 +5,7 @@
                 Influenza
             </div>
             <div class="containerModel"style="display: flex; flex-direction: row; justify-content: space-evenly; align-content: center; ">
-                    <div class="model"style="display: flex;flex-direction: column; justify-content: center; align-items:center" >
+                    <div class="model" >
                         <div class="containerBackground">
                             <div class="containerAddDiseaseText"style="display: flex; justify-content: center; align-content: center; ">
                                 Edit Disease
@@ -62,29 +62,27 @@
                     </div>
                     <div class="modelBackgroundView"style=" display: flex; flex-direction: column;">
                         <div class="container" style="display: flex; justify-content: center;">
-                            <model-viewer style="height: 170px; width:170px" id="modelSkripsi1" src='../assets/body.glb' ar shadow-intensity="1" camera-controls touch-action="pan-y" disable-pan></model-viewer>
+                            <model-viewer style="height: 500px; width:300px" id="modelSkripsi1" src='../assets/body.glb' ar shadow-intensity="1" camera-controls touch-action="pan-y" disable-pan></model-viewer>
                         </div>
                         <div class="containerIconView" style="display: flex;flex-direction: row; justify-content: space-evenly;align-items: center;height:100%">
                             <div class="containerIcon">
-                                <img src="body.png" style="width: 16px;height:16px;">
+                                <img src="body.png" style="width: 35px;height:35px;">
                             </div>
                             <div class="containerIcon">
-                                <img src="muscle.png" style="width: 16px;height:16px;">
+                                <img src="muscle.png" style="width: 35px;height:35px;">
                             </div>
                             <div class="containerIcon">
-                                <img src="organs.png" style="width: 16px;height:16px;">
+                                <img src="organs.png" style="width: 35px;height:35px;">
                             </div>
                             <div class="containerIcon">
-                                <img src="skeletal.png" style="width: 16px;height:16px;">
+                                <img src="skeletal.png" style="width: 35px;height:35px;">
                             </div>
                         </div>
                        
                     </div>
              
             </div>
-            <div class="containerView" style="display: flex; justify-content: center;align-items: center; width:100%;">
-                <a href="" class="btnViewBack">Back</a>
-            </div>
+    
 
        
     
