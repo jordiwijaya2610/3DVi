@@ -8,9 +8,14 @@
             <div class="containerModel"style="display: flex; flex-direction: row; justify-content: space-evenly; align-content: center; ">
                     <div class="model"style="display: flex;flex-direction: column; justify-content: center; align-items:center" >
                         <button class="accordion" id="accordion">Disease Information</button>
+                           
                             <div class="panel">
+                                
                                 <div class="panel-text">
                                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.asdasdasdjkbnasojdnaskdnaklsdnakl;sdnaklsdnaklsdnaklsdnklasdnaklsdn</p>
+                                </div>
+                                <div class="lastUpdateText">
+                                    Last update : 24 January 2023, 15:00
                                 </div>
                                 
                             </div>
@@ -37,8 +42,16 @@
                     </div>
              
             </div>
-            <div class="containerView" style="display: flex; justify-content: center;align-items: center; width:100%;">
+            {{-- <div class="containerView" style="display: flex; justify-content: center;align-items: center; width:100%;">
                 <a href="" class="btnViewBack">Back</a>
+            </div> --}}
+            <div class="containerBtnView" style="display: flex; justify-content: space-between;align-items: center; width:100%;">
+                <div class="containerViewEdit" style="display: flex; justify-content: end;align-items: center; width:100%;margin-right: 10px">
+                    <a href="" class="btnViewEdit"><img src="/edit.png"style="width: 35px;height:35px;" alt=""></a>
+                </div>
+                <div class="containerViewDelete" style="display: flex; justify-content: start;align-items: center; width:100%;margin-left: 10px">
+                    <a href="" class="btnViewDelete"><img src="/delete.png"style="width: 35px;height:35px;" alt=""></a>
+                </div>
             </div>
 
        
