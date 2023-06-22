@@ -21,6 +21,45 @@
                             </div>
                     </div>
                     <div class="modelBackgroundView"style=" display: flex; flex-direction: column;">
+                        <div class="containerLegend" style="display: flex; justify-content: end;margin-top: 4px;margin-right:4px" >
+                            <div class="containerColorLegend" style="height:120px;width:120px;display:flex;align-items: center;flex-direction: column;background-color: white;color:black;padding: 4px;border-radius:4px">
+                                <div class="containerColorDisease" style="display: flex;justify-content: start;width:100%">
+                                    <div class="containerColor" style="width:30px;height:30px;display: flex;justify-content: start">
+                                        <div class="containerColor1" style="background-color: white;width:20px;height:20px;border-color: black;border-style:solid"></div>
+                                    </div>
+                                    <div class="containerColorText1"style="font-size:10px;display: flex;justify-content: start">
+                                        Not Affected
+                                    </div>
+                                </div>
+                                <div class="containerColorDisease"style="display: flex;justify-content: start;width:100%">
+                                    <div class="containerColor"style="width:30px;height:30px;display: flex;justify-content: start" >
+                                        <div class="containerColor2"style="background-color: yellow;width:20px;height:20px;border-color: black;border-style:solid"></div>
+                                    </div>
+                                    <div class="containerColorText2"style="font-size:10px">
+                                        Slightly Affected
+                                    </div>
+                                </div>
+                                <div class="containerColorDisease"style="display: flex;justify-content: start;width:100%">
+                                    <div class="containerColor"style="width:30px;height:30px;display: flex;justify-content: start" >
+                                        <div class="containerColor2"style="background-color: orange;width:20px;height:20px;border-color: black;border-style:solid"></div>
+                                    </div>
+                                    <div class="containerColorText2"style="font-size:10px">
+                                        Moderately Affected
+                                    </div>
+                                </div>
+                                <div class="containerColorDisease"style="display: flex;justify-content: start;width:100%">
+                                    <div class="containerColor"style="width:30px;height:30px;display: flex;justify-content: start" >
+                                        <div class="containerColor2"style="background-color: red;width:20px;height:20px;border-color: black;border-style:solid"></div>
+                                    </div>
+                                    <div class="containerColorText2"style="font-size:10px">
+                                        Highly Affected
+                                    </div>
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
                         <div class="container" style="display: flex; justify-content: center;">
                             <model-viewer style="height: 500px; width:300px" id="modelSkripsi1" src='../assets/body.glb' ar shadow-intensity="1" camera-controls touch-action="pan-y" disable-pan></model-viewer>
                         </div>
