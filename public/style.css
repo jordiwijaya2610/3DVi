@@ -142,7 +142,7 @@ footer{
     border-color: white;
     border-style: solid;
     width: 250px;
-    height: 620px;
+    height: 600px;
   
 }
 
@@ -250,6 +250,21 @@ table, table th, table td {
   color: black;
 }
 
+table{
+    table-layout: fixed;
+    display: table;
+}
+
+table tr{
+    overflow: hidden;
+}
+
+tr.noBorder{
+    display: none;
+   
+    
+}
+
 .containerPlusIcon{
     font-size: 20px;
     font-weight: bolder;
@@ -260,21 +275,17 @@ table th{
     text-align: center;
     font-size: 18px;
     color: white;
-    height:10px;
+
    
 }
 
 table td{
     text-align: left;
     font-size: 15px;
-    height: 1px;
-    max-width: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding-left: 5px;
-    margin-top: 100px;
-    margin-bottom: 2px;
-
+    display: table-cell;
+    border-collapse: collapse;
 }
 
 .containerTable{
@@ -287,6 +298,11 @@ table td{
     margin-bottom: 20px;
     border-color: white;
     border-style: solid;
+}
+
+.containerInsideTable{
+    height: fit-content;
+    max-height: 550px;
 }
 
 .containerTableOut{

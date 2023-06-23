@@ -35,14 +35,17 @@
   
                 </div>
                 <div class="containerTable" style="display: flex; justify-content: center;">
-                  <table width= 100%; height=550px>
-                      <tr>
+                  <div class="containerInsideTable">
+
+                  
+                  <table width= 100%; height=100%>
+                      <tr style="line-height: 40px; height: 40px;">
                         <th  width= 40%;>Disease</th>
                         {{-- <th width= 40%>Disease Information</th> --}}
                         <th  width= 40%>Action</th>
 
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
                         <td style="text-align: center;">
                           <button class="buttonActions">
@@ -54,43 +57,126 @@
 
                         </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
-                      <tr>
+                      <tr  style="line-height: 40px; height: 40px;">
                         <td>Influenza</td>
-                        <td>$ASDASDOHJASKLDNALSKDmnasdasdasdaiusdhaosudnaojsdhnjosn</td>
+                        <td style="text-align: center;">
+                          <button class="buttonActions">
+                            <img src="delete.png" alt="" style="width: 25px;height:25px">
+                          </button>
+                          <button class="buttonActions">
+                            <img src="edit.png" alt="" style="width: 25px;height:25px">
+                          </button>
+
+                        </td>
                       </tr>
+                      
+                      {{-- <tr class="noBorder" style="line-height: 30px; height: 30px;">
+                        <td style="border: none"></td>
+                        <td style="border: none"></td>
+
+                      </tr> --}}
+                    
+                    
+                     
+                     
                     </table>
+                  </div>
                 </div>
               </div>
                 
